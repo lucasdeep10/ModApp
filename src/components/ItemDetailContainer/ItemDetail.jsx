@@ -25,13 +25,8 @@ const ItemDetail = ({ item }) => {
             <div className="card mt-2 mb-2 d-md-flex flex-md-row" >
                 <div className="d-flex flex-column justify-content-center" >
                     <h6 className="text-center text-dark mt-3"> {item.autor} </h6>
-<<<<<<< HEAD
-                    <img src={item.pictureUrl} className="card-img-top container" style={{ width: "150px", height: "auto" }} alt="img" />
-=======
                     <img src={item.pictureUrl} className="card-img-top container" style={{ width: "250px", height: "auto" }} alt="img" />
->>>>>>> 3e55f3b0986f29360cc69f751579d60b0a14443b
                     <div className="card-body d-none d-md-flex flex-column justify-content-center">
-
 
                         {wasClick === false ?
                             <ItemCount

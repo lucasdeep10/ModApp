@@ -31,10 +31,8 @@ export const Cart = () => {
             const price = cartItem.price * cartItem.cantidad
             return { id, title, price }
         })
-
-
-
-        const post = postOrder(order, setOrderId, cartList)
+//eslint-disable-next-line
+        const post = postOrder(order, setOrderId, cartList) 
         };
 
     //*Borrar el carrito de compra

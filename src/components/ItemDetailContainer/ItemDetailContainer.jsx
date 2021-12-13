@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
 
     const { id } = useParams()
 
-    useEffect(() => {
+    useEffect(() => { //eslint-disable-next-line
         const itemsG = getItem(id, setItem, setLoading)
         },[id])
    
